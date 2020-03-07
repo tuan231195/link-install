@@ -1,0 +1,16 @@
+{
+  "name": "sso-parent",
+  "scripts": {
+    "postinstall": "link-parent-bin -s true && link-parent-bin -s true --child-directory-root app",
+    "prepare": "tsc -b packages"
+  },
+  "dependencies": {
+    "sso-login": "./app/login",
+    "sso-utils": "./packages/utils",
+    "sso-services": "./packages/services"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3",
+    "link-parent-bin": "1.0.2"
+  }
+}

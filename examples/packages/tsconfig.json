@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "incremental": true
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./utils"
+    },
+    {
+      "path": "./services"
+    }
+  ]
+}

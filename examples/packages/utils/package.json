@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "name": "sso-utils",
+  "scripts": {
+    "prepare": "rm -rf dist && tsc"
+  },
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}

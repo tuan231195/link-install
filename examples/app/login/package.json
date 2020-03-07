@@ -1,0 +1,9 @@
+{
+    "version": "1.0.0",
+    "name": "sso-login",
+    "private": true,
+    "dependencies": {
+        "express": "4.17.1",
+        "sso-services": "../../packages/services"
+    }
+}
