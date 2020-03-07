@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Tuan Nguyen",
+    "email": "vdtn359@gmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "bin": {
+    "link-install": "index.js"
+  },
+  "dependencies": {
+    "cpy": "8.0.0",
+    "fs-extra": "8.1.0",
+    "dependency-graph": "0.9.0"
+  },
+  "deprecated": false,
+  "description": "Install dependencies and resolve any symlinks to regular files",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "link-install",
+  "version": "2.0.0"
+}
