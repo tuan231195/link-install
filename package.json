@@ -6,6 +6,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "bin": {
     "link-install": "index.js"
   },
